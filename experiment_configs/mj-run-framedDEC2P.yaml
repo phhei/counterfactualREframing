@@ -1,0 +1,16 @@
+dataset_name: 'mj'
+dataset_name_full: 'Marijuana'
+s_bert_model_name: 'all-MiniLM-L6-v2'
+t5_model_name: 't5-small'
+num_cfs_per_sentence: 50
+generate_batch_size: 3
+frame_modification_strategies: ["remove_1_random_labels", "exchange_1_random_labels", "remove_2_random_labels", "exchange_2_random_labels"]
+data_manifold_closeness_embedding_type: 'whole_sentences'
+top_k_embedding_similarities: 5
+
+activate_framed_decoding: True
+frame_decoding_strength: 0.02
+generation_args:
+  temperature: 1.0
+  no_repeat_ngram_size: 3
+  repetition_penalty: 1.02

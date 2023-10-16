@@ -1,0 +1,5 @@
+dataset_name: 'ab'
+dataset_name_full: 'abortion'
+s_bert_model_name: 'all-MiniLM-L6-v2'
+t5_model_name: 't5-small'
+frame_modification_strategies: ["remove_1_random_labels", "add_1_random_labels", "exchange_1_random_labels"]

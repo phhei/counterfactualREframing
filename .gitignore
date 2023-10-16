@@ -1,0 +1,6 @@
+*.pyc
+__pycache__/
+/datasets/
+/output/
+.idea/
+trained_models/

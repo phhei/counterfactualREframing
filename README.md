@@ -128,12 +128,21 @@ ACCIDENTS/SECURITY     0.6698    0.4494    0.5379       158
 @inproceedings{heinisch-etal-2023-unsupervised,
     title = "Unsupervised argument reframing with a counterfactual-based approach",
     author = "Heinisch, Philipp  and
-      Mindlin, Dimitry and
+      Mindlin, Dimitry  and
       Cimiano, Philipp",
+    editor = "Alshomary, Milad  and
+      Chen, Chung-Chi  and
+      Muresan, Smaranda  and
+      Park, Joonsuk  and
+      Romberg, Julia",
     booktitle = "Proceedings of the 10th Workshop on Argument Mining",
-    month = dez,
+    month = dec,
     year = "2023",
-    address = "Online and in Singapore",
-    publisher = "International Conference on Computational Linguistics",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.argmining-1.11",
+    doi = "10.18653/v1/2023.argmining-1.11",
+    pages = "107--119",
+    abstract = "Framing is an important mechanism in argumentation, as participants in a debate tend to emphasize those aspects or dimensions of the issue under debate that support their standpoint. The task of reframing an argument, that is changing the underlying framing, has received increasing attention recently. We propose a novel unsupervised approach to argument reframing that takes inspiration from counterfactual explanation generation approaches in the field of eXplainable AI (XAI). We formalize the task as a mask-and-replace approach in which an LLM is tasked to replace masked tokens associated with a set of frames to be eliminated by other tokens related to a set of target frames to be added. Our method relies on two key mechanisms: framed decoding and reranking based on a number of metrics similar to those used in XAI to search for a suitable counterfactual. We evaluate our approach on three topics using the dataset by Ruckdeschel and Wiedemann (2022). We show that our two key mechanisms outperform an unguided LLM as a baseline by increasing the ratio of successfully reframed arguments by almost an order of magnitude.",
 }
 ````
